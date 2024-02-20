@@ -1,0 +1,10 @@
+h1 {color: blue;}
+p {color:blueviolet}
+
+p, h1 {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+p a {color:greenyellow; font-family: cursive; font-size: 1em}
+
+#amazonlink{color:pink;}
+
+.fcolor {color:aquamarine}
