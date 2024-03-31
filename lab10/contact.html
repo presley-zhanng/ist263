@@ -3,25 +3,31 @@
     <head>
         <meta charset="utf-8">
         <title>Contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="skills.html">Skills</a> |
+            <a href="index.html">Home</a> <span>|</span>
+            <a href="skills.html">Skills</a> <span>|</span>
             <a href="contact.html">Contact</a>
         </nav>
         <h1>Contact</h1>
-            <h2>Presley Zhang</h2>
-            <p>Address: 140 Small Rd Apt 3, Syracuse, New York</p>
-            <p>My LinkedIn Profile: <a href="https://www.linkedin.com/in/zhangpresley">linkedin</a></p>
-            <p>Email: <a href="mailto:pszhang@syr.edu">pszhang@syr.edu</a></p>
-            <a href="https://linkedin.com/in/zhangpresley"><img src="../images/LI-China-Logo-RESIZED.png" alt="LinkedIn Logo"></a>
-            <h2>Location</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.9908438223897!2d-76.12548742367213!3d43.02057989311634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f37d7a1a5939%3A0x649a54f8d055721!2s140%20Small%20Rd%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1706798979246!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <h2>Email me!</h2>
-            <form action="https://formspree.io/f/xdoqejdk" method="POST">
+        <div class="first">
+            <div class="address">
+                <h3>Address</h3>
+                <p>Presley Zhang<br>140 Small Rd Apt 3, Syracuse, New York</p>
+            </div>
+            <div class="contact">
+                <p><a href="https://linkedin.com/in/zhangpresley"><img id="linkdin" src="../images/LI-China-Logo-RESIZED.png" alt="LinkedIn Logo"></a>  My LinkedIn Profile: <a href="https://www.linkedin.com/in/zhangpresley">linkedin</a></p>
+                <p>Email: <a href="mailto:pszhang@syr.edu">pszhang@syr.edu</a></p>
+            </div>
+        </div>
+        <div class="second">
+            <div class="email">
+                <form action="https://formspree.io/f/xdoqejdk" method="POST">
                 <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="fname">
+                <input type="text" id="fname" name="fname"><br>
                 <label for="lname">Last Name:</label>
                 <input type="text" id="lname" name="lname"><br>
                 <p>Gender</p>
@@ -32,15 +38,14 @@
                     <input type="radio" id="other" name="other" value="other">
                     <label for="other">other</label><br>
                 <label>Content:</label><br>
-                <textarea name="emailcontent" rows="30" cols="50">
-
+                <textarea name="emailcontent" rows="20" cols="50">
                 </textarea><br>
                 <input type="submit" value="Send Email">
-            </form>
+                </form>
+            </div>
+            <div class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.9908438223897!2d-76.12548742367213!3d43.02057989311634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f37d7a1a5939%3A0x649a54f8d055721!2s140%20Small%20Rd%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1706798979246!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </body>
-    
-
-
-
-
 </html>
