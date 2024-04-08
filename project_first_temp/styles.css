@@ -1,0 +1,180 @@
+.header {
+    background-color: #eebbba;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position:sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+@media screen and (max-width=600px){
+    .logo_text {
+        font-size: 1rem;
+        padding-top: 13px
+    }
+    #left_img {
+        margin-left: 0;
+    }
+}
+.icon {
+    width: 20px;
+    height: 20px;
+}
+.logo {
+    display:flex;
+}
+
+.logo_img {
+    padding-top: 10px
+}
+
+.logo_text {
+    font-size: 2rem;
+    padding-top: 13px
+}
+
+.nav_bar {
+
+}
+
+.nav_bar a {
+    padding: 20px;
+    text-decoration: none;
+    color: #000000
+}
+
+body {
+    font-family:'Oswald';
+}
+
+.main_content {
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    top: 150px;
+}
+
+.content_left {
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 20px;
+    width: 50%;
+    height: 424px;
+}
+
+.content_left p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.content_rightTop {
+    border: 1px solid black
+}
+
+.content_rightBot {
+    display: flex;
+
+    margin-top: 20px;
+}
+
+.content_rightBotLeft {
+    border: 1px solid black;
+    margin-right: 20px;
+    padding:10px
+}
+
+.content_rightBotRight {
+    border: 1px solid black
+}
+
+.form_calender {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px
+}
+
+.form input{
+    border: 1px solid black;
+    border-radius: 4px;
+    
+}
+
+.form input[type=text] {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.form input::placeholder {
+    font-family: 'Oswald';
+    padding: 5px;
+}
+
+.form input[type=radio] {
+    margin: 5px;
+    accent-color: #eebbba;
+    cursor: pointer;
+}
+
+
+.form input[type=submit] {
+    background-color: #ffffff;
+    padding:10px 20px; 
+    font-family: 'Oswald'; 
+    border-radius: 10px; 
+    border: 1px solid #000000;
+    margin-top: 20px;
+}
+
+.form input[type=submit]:hover {
+    background-color:#eebbba;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.contacts_title {
+    font-family: 'Oswald';
+    text-align: center;
+    font-size: 2em;
+}
+
+.list_executives {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+.executives {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.exec_photo img {
+    border-radius: 50%;
+    width: 30%;
+}
+
+.exec_info {
+    font-size: 1.25em;
+}
+
+.title {
+    font-size: 2em;
+    padding: 5%
+}
+
+#left_img {
+    margin-left: 70%;
+}
