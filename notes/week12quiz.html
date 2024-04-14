@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <script>
+        function rightAnswer () {
+            document.getElementByID("right").innerHTML = "<span style='color: green;'>False is the right answer</span>";
+        };
+        function wrongAnswer () {
+            document.getElementByID("wrong").innerHTML = "<span style='color: red;'>Right is the wrong answer</span>";
+        };
+    </script>
+</head>
+<body>
+    <h1>HTML Quiz</h1>
+    <p>Changing HTML inside a tag with JavaScript</p>
+
+    <p>JavaScript and Java are the same thing.</p>
+    <p id="wrong" onclick="wrongAnswer();">True</p>
+    <p id="right" onclick="rightAnswer();">False</p>
+</body>
+</html>
