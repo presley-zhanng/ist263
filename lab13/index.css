@@ -2,18 +2,21 @@
     nav a {color: #F38630}
 
     nav {
-        background-color: #2256e4;
+        background-color: #113188;
         padding: 10px
     }
 
     nav a:hover {
         background-color: #000000
     }
+    nav span {
+        color: #ffffff;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     nav {
-        background-color: #2256e4;
+        background-color: #113188;
         padding: 10px
     }
     nav span {
