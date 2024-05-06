@@ -3,6 +3,13 @@ body {
   margin: 0;
   padding: 0;
 }
+#bannerimage {
+    width: 100%;
+    background-image: url("../project_img/palo_alto_senior_high.jpeg");
+    height: 405px;
+    background-color: purple;
+    background-size: 100% 100%;
+  }
 
 #topBtn {
     display: block;
@@ -13,7 +20,7 @@ body {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #f48a89;
+    background-color: #3aa7eb;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -36,8 +43,7 @@ body {
   margin-top: 100px;
   box-sizing: border-box;
   background-color: #eebbba;
-
-  height: 300px;
+  height: 200px;
 }
 
 .nav_bar {
@@ -213,27 +219,27 @@ body {
 .contacts_title {
   font-family: "Oswald";
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
 }
 
-.list_executives {
-  display: flex;
-  flex-direction: column;
-  margin: 5%;
-}
 .executives {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin: 5% 25% 10%;
+  justify-content: space-between;
 }
+
 
 .exec_photo img {
   border-radius: 50%;
-  width: 30%;
+  width: 275px;
+  margin: 0 30% 0 15%;
 }
 
 .exec_info {
   font-size: 1.25em;
+  width: 50%
 }
 
 .title {
@@ -241,9 +247,7 @@ body {
   padding: 5%;
 }
 
-#left_img {
-  margin-left: 70%;
-}
+
 
 #slider {
   margin: 0 auto;
